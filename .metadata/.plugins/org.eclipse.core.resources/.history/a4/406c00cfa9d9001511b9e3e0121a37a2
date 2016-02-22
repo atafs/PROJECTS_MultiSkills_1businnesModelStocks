@@ -1,0 +1,88 @@
+/** 
+*	@author AmericoTomas 
+*	@mail atafs@iscte-iul.pt
+*/
+
+package com.americolib.model.impl;
+
+import java.util.Date;
+
+import com.americolib.model.TradeType;
+
+public class Trade {
+
+	//ATTRIBUTES
+	private Date timeStamp = null;
+	private Stock stock = null;
+	private TradeType tradeIndicator = TradeType.BUY;
+	private int sharesQuantity = 0;
+	private double price = 0.0;
+	
+	//CONSTRUCTOR
+	public Trade() {
+		super();
+	}
+
+	//GETTERS AND SETTERS
+	public Date getTimeStamp() {
+		return timeStamp;
+	}
+
+	public void setTimeStamp(Date timeStamp) {
+		this.timeStamp = timeStamp;
+	}
+
+	public Stock getStock() {
+		return stock;
+	}
+
+	public void setStock(Stock stock) {
+		this.stock = stock;
+	}
+
+	public TradeType getTradeIndicator() {
+		return tradeIndicator;
+	}
+
+	public void setTradeIndicator(TradeType tradeIndicator) {
+		this.tradeIndicator = tradeIndicator;
+	}
+
+	public int getSharesQuantity() {
+		return sharesQuantity;
+	}
+
+	public void setSharesQuantity(int sharesQuantity) {
+		this.sharesQuantity = sharesQuantity;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	//TOSTRING
+	@Override
+	public String toString() {
+		String toReturn = "";
+		toReturn += "Trade timeStamp = " + getTimeStamp() + "\n";
+		toReturn += "\t=> Trade stock = " + getStock() + "\n";
+		toReturn += "\t=> Trade tradeIndicator = " + getTradeIndicator() + "\n";
+		toReturn += "\t=> Trade sharesQuantity = " + getSharesQuantity() + "\n";
+		toReturn += "\t=> Trade price = " + getPrice() + "\n";
+		
+		System.out.println("");
+		System.out.println("SPRING INJECTION ###############");
+		System.out.println(toReturn);
+		
+		return toReturn;
+	}
+	
+	
+
+}
+
+

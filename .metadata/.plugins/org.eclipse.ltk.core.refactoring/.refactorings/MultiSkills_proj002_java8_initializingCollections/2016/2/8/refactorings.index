@@ -4,3 +4,23 @@
 1456102362724	Delete element
 1456103405183	Rename resource 'classes.png'
 1456103964744	Delete element
+1456175426500	Rename resource 'stocks-boundary-services-context.xml'
+1456175448721	Rename resource 'spring.xml'
+1456175564437	Rename resource 'stock-services-context.xml.xml'
+1456175704928	Delete element
+1456175730480	Rename resource 'stocks-unit-test-context.xml'
+1456177618365	Rename resource 'stock-services-context.xml'
+1456177712223	Rename resource 'trade-services-context.xml'
+1456177978199	Delete element
+1456178053807	Delete element
+1456178631832	Rename package 'com.americolib.model'
+1456178671762	Rename package 'com.americolib.model.impl'
+1456178915182	Rename package 'com.americolib.manage'
+1456178924878	Rename package 'com.americolib.factory'
+1456178978034	Rename package 'com.americolib.service'
+1456179001379	Rename package 'com.americolib.utils'
+1456179023300	Rename package 'com.americolib._1model.utils'
+1456179169585	Rename package 'com.americolib.config'
+1456179185891	Rename package 'com.americolib.spring_beans'
+1456179196774	Rename resource 'beans-1inject-services-context.xml'
+1456179207000	Rename resource 'beans-2list-services-context.xml'

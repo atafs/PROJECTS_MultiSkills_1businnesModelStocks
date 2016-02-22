@@ -1,0 +1,14 @@
+/** 
+*	@author AmericoTomas 
+*	@mail atafs@iscte-iul.pt
+*/
+
+package com.americolib.utils;
+
+public interface Date {
+
+	//INTERFACE
+	public Date getNowMovedMinutes(int minutes);
+}
+
+

@@ -1,0 +1,20 @@
+/** 
+*	@author AmericoTomas 
+*	@mail atafs@iscte-iul.pt
+*/
+
+package com.americolib.utils.impl;
+
+public class DateImpl implements Date{
+	
+	public Date getNowMovedMinutes(int minutes){
+		Calendar now = Calendar.getInstance();
+		now.add(Calendar.MINUTE, minutes);
+		return now.getTime();
+	}
+	
+
+
+}
+
+
