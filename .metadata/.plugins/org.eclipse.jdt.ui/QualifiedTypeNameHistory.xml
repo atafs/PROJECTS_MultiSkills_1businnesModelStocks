@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.americolib.model.type.StockType"/>
+<fullyQualifiedTypeName name="com.americolib.model.Stock"/>
+</qualifiedTypeNameHistroy>

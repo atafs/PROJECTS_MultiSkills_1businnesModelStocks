@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MultiSkills_proj002_java8&apos; to &apos;MultiSkills_proj002_java8_initializingCollections&apos;" description="Rename resource &apos;MultiSkills_proj002_java8&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/MultiSkills_proj002_java8" name="MultiSkills_proj002_java8_initializingCollections" stamp="1456102316842" updateReferences="true"/>
+</session>
