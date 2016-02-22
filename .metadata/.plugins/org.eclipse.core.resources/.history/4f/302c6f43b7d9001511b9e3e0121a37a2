@@ -1,0 +1,12 @@
+/** 
+*	@author AmericoTomas 
+*	@mail atafs@iscte-iul.pt
+*/
+
+package com.americolib._2manager;
+
+public interface ManageTrade {
+
+}
+
+

@@ -1,0 +1,12 @@
+/** 
+*	@author AmericoTomas 
+*	@mail atafs@iscte-iul.pt
+*/
+
+package com.americolib._3services;
+
+public interface StockService {
+
+}
+
+

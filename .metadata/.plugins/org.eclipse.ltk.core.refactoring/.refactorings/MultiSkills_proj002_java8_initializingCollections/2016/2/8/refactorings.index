@@ -24,3 +24,6 @@
 1456179185891	Rename package 'com.americolib.spring_beans'
 1456179196774	Rename resource 'beans-1inject-services-context.xml'
 1456179207000	Rename resource 'beans-2list-services-context.xml'
+1456183628959	Delete element
+1456183646114	Rename package 'com.americolib._4services'
+1456183656972	Rename package 'com.americolib._5spring_beans'
