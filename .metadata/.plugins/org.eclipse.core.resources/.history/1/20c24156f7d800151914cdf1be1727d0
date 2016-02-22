@@ -1,0 +1,18 @@
+package com.americolib.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.americolib.model.Stock;
+
+public class Main {
+
+	@SuppressWarnings("resource")
+	public static void main(String[] args) {
+		//config need to be inside src package
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/americolib/config/spring.xml");
+		Stock stock = (Stock)context.getBean("stockTEA");
+		stock.stockData();
+	}
+
+}

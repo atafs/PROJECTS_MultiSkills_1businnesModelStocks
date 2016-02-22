@@ -1,0 +1,8 @@
+package com.americolib.model.type;
+
+//DAO
+public enum StockType {
+	
+	//TYPES OF STOCKS
+	COMMON, PREFERRED;
+}

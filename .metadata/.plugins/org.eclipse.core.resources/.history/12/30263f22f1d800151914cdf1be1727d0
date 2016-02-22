@@ -1,0 +1,14 @@
+package com.americolib.model;
+
+import com.americolib.model.type.StockType;
+
+public class Stock {
+	
+	//ATTRIBUTES
+	private StockType stockType = StockType.COMMON;
+	private double lastDividend = 0.0;
+	private double fixedDividend = 0.0;
+	private double parValue = 0.0;
+	private double tickerPrice = 0.0; 
+
+}

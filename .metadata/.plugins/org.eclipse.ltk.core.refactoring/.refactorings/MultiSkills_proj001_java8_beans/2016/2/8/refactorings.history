@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;MultiSkills_proj001_java8&apos;&#x0D;&#x0A;- Original project: &apos;MultiSkills_proj001_java8&apos;&#x0D;&#x0A;- Original element: &apos;MultiSkills_proj001_java8/src.main.java/com.americolib.service&apos;" description="Delete element" element1="/src.main.java&lt;com.americolib.service" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1456099711109" subPackages="false" version="1.0"/>
+</session>

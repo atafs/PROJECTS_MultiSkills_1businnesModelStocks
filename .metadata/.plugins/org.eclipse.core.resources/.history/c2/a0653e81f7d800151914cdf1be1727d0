@@ -1,0 +1,27 @@
+package com.americolib.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.americolib.model.Stock;
+
+public class Main {
+
+	@SuppressWarnings("resource")
+	public static void main(String[] args) {
+		//config need to be inside src package
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/americolib/config/spring.xml");
+		Stock stock1 = (Stock)context.getBean("stockTEA");
+		Stock stock2 = (Stock)context.getBean("stockTEA");
+		Stock stock3 = (Stock)context.getBean("stockTEA");
+		Stock stock4 = (Stock)context.getBean("stockTEA");
+		Stock stock5 = (Stock)context.getBean("stockTEA");
+		
+		stock1.stockData();
+		stock2.stockData();
+		stock3.stockData();
+		stock4.stockData();
+		stock5.stockData();
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.americolib.model.type;
+
+public enum SotckType {
+
+}

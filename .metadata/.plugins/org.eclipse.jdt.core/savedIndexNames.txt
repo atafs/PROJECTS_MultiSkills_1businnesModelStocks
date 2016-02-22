@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+D:\clouds\Drive Ilimitado\PROJECTS_MultiSkills_1businnesModelStocks\.metadata\.plugins\org.eclipse.jdt.core
+3331598820.index

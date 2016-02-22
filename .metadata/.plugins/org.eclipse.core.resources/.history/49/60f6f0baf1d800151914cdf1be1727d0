@@ -1,0 +1,9 @@
+package com.americolib.model;
+
+import com.americolib.model.type.StockType;
+
+//DAO
+public class StockTest {
+	
+
+}

@@ -1,0 +1,34 @@
+package com.americolib.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.americolib.model.Stock;
+
+
+public class Main {
+
+	@SuppressWarnings("resource")
+	public static void main(String[] args) {
+
+//		//INSTANCIATE (no spring)
+//		Triangle triangle = new Triangle();
+//		triangle.draw();
+		
+		//OR
+		
+//		//INSTANTIATE WITH SPRING
+//		BeanFactory factory = new XmlBeanFactory(new FileSystemResource("config/spring.xml"));
+//		Triangle triangle = (Triangle)factory.getBean("Triangle");
+//		triangle.draw();
+		
+		//OR
+		
+		//INSTANTIATE WITH SPRING ApplicationContext and Property Initialization
+		//config need to be inside src package
+		ApplicationContext context = new ClassPathXmlApplicationContext("src/main/resource/config/spring.xml");
+		Stock stock = (Stock)context.getBean("StockTEA");
+		stock.stockData();
+	}
+
+}
