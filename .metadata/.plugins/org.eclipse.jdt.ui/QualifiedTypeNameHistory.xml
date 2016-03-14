@@ -2,4 +2,16 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.americolib.model.type.StockType"/>
 <fullyQualifiedTypeName name="com.americolib.model.Stock"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.americolib.model.TradeType"/>
+<fullyQualifiedTypeName name="com.americolib.model.impl.Trade"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.americolib.utils.Date"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.americolib._1model.impl.Stock"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.americolib._1model.impl.Trade"/>
+<fullyQualifiedTypeName name="com.americolib._3services.StockService"/>
+<fullyQualifiedTypeName name="com.americolib._2manager.ManageTrade"/>
 </qualifiedTypeNameHistroy>
